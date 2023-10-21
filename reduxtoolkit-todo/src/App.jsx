@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Learn about redux toolkot</h1>
+      <h1 className="text-4xl">Learn about redux toolkot</h1>
       <AddTodo />
       <Todos />
     </>

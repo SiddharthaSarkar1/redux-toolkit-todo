@@ -12,7 +12,7 @@ const Todos = () => {
       <div>Todos</div>
       <ul  className="list-none">
       {todos.map((todo) => (
-          <li key={todo.id} className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded">
+          <li key={todo.id} className="mt-4 flex justify-between items-center text-gray-100 bg-gray-800 px-4 py-2 rounded">
               {todo.text}
               <button
               onClick={() => dispatch(removeTodo(todo.id))}
